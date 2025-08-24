@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import joblib
+import os
 
 # --- Page Setup ---
 st.set_page_config(
@@ -15,8 +16,8 @@ st.set_page_config(
 def load_model():
     """Loads the saved model and column list."""
     try:
-        model = joblib.load('xgb_model.pkl')
-        model_cols = joblib.load('model_columns.pkl')
+        model = joblib.load('C:/Praveen/DS Projects/CrickSight/notebook/model_columns.pkl')
+        model_cols = joblib.load('C:/Praveen/DS Projects/CrickSight/notebook/xgb_model.pkl')
         return model, model_cols
     except FileNotFoundError:
         st.error("Model files not found! Make sure 'xgb_model.pkl' and 'model_columns.pkl' are in the root directory.")
