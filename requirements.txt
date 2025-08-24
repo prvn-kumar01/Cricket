@@ -1,0 +1,39 @@
+# Core Python Libraries
+pandas
+numpy
+scikit-learn
+xgboost
+matplotlib
+seaborn
+plotly
+
+# Web Scraping
+requests
+beautifulsoup4
+lxml
+selenium
+
+# Database
+psycopg2-binary      # For PostgreSQL
+sqlalchemy
+
+# API Handling
+httpx
+
+# Dashboard & Web App
+streamlit
+dash
+
+# Data Processing
+openpyxl             # For Excel support
+python-dateutil
+
+# Machine Learning & Forecasting
+prophet
+statsmodels
+
+# Deployment & Utilities
+gunicorn             # For deployment (Flask/Streamlit)
+uvicorn
+pydantic
+xgboost
